@@ -32,14 +32,16 @@
             font-family: 'Alegreya', sans-serif;
             font-size: 40px;
             font-weight: 800;
-            animation: rainbow 7s linear infinite;
+            /* text-shadow: 2px 2px 0px red; */
+            animation: rainbow 7s linear infinite, move-text 2s linear infinite;
+            position: relative;
         }
 
         .celesteplaceheader span:nth-child(1) {
             animation-delay: 0s;
         }
         .celesteplaceheader span:nth-child(2) {
-            animation-delay: 0.1s;
+            animation-delay: 0.2s;
         }
         .celesteplaceheader span:nth-child(3) {
             animation-delay: 0.2s;
@@ -97,6 +99,13 @@
         }
         .celesteplaceheader span:nth-child(21) {
             animation-delay: 2s;
+        }
+
+        @keyframes move-text {
+            0% { bottom: -0.1em; opacity: 1; }
+            5% { bottom: 0.1em; }
+            10% { bottom:0; opacity: 1; }
+            100% { bottom:0; opacity: 1; }
         }
         
         p {
