@@ -181,6 +181,11 @@ li {
     animation: wavy 1.5s ease-in-out infinite;
 }
 
+.impossibru span {
+    transform: rotate(-25deg);
+    font-size: 60px;
+    padding-right: 280px;
+}
 
 
 /* _________  _________ */
