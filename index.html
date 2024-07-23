@@ -3,194 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/renogare" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1264642144480526431/1264942531444211814/favicon.png?ex=669fb508&is=669e6388&hm=925e685addd018378ffafba7150f055a6c5309e3e8243fb10c11417c8345d532&">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="audio" type="audio/mpeg" href="audio/wavedash.ppt loop.MP3">
 
-    <style>
-        html {
-            background: #4383bb;
-            display: flex;
-            justify-content: center;
-        }
-        
-        body {
-            margin: 50px;
-            border: 2px solid #b6ddff;
-            border-radius: 30px;
-            background: #A0C6E8;
-            width:1500px;
-        }
-        
-        header {
-            color: white;
-            text-align: center;
-        }
-
-        header p {
-            color: #132F4B;
-            font-family: 'Renogare', sans-serif;
-            font-size: 16px;
-        }
-
-        .celesteplaceheader {
-            margin-top: 10px;
-            font-family: 'Space Grotesk', 'Alegreya', sans-serif;
-        }
-        .celesteplaceheader {
-            font-family: inherit;
-        }
-        
-        .celesteplaceheader span  {
-            font-family: 'Renogare', sans-serif;
-            font-size: 40px;
-            /* font-weight: 800; */
-            /* text-shadow: 2px 2px 0px red; */
-            animation: rainbow 7s linear infinite, move-text 2s linear infinite;
-            position: relative;
-        }
-
-        .celesteplaceheader span:nth-child(1) {
-            animation-delay: 0s;
-        }
-        .celesteplaceheader span:nth-child(2) {
-            animation-delay: 0.2s;
-        }
-        .celesteplaceheader span:nth-child(3) {
-            animation-delay: 0.2s;
-        }
-        .celesteplaceheader span:nth-child(4) {
-            animation-delay: 0.3s;
-        }
-        .celesteplaceheader span:nth-child(5) {
-            animation-delay: 0.4s;
-        }
-        .celesteplaceheader span:nth-child(6) {
-            animation-delay: 0.5s;
-        }
-        .celesteplaceheader span:nth-child(7) {
-            animation-delay: 0.6s;
-        }
-        .celesteplaceheader span:nth-child(8) {
-            animation-delay: 0.7s;
-        }
-        .celesteplaceheader span:nth-child(9) {
-            animation-delay: 0.8s;
-        }
-        .celesteplaceheader span:nth-child(10) {
-            animation-delay: 0.9s;
-        }
-        .celesteplaceheader span:nth-child(11) {
-            animation-delay: 1s;
-        }
-        .celesteplaceheader span:nth-child(12) {
-            animation-delay: 1.1s;
-        }
-        .celesteplaceheader span:nth-child(13) {
-            animation-delay: 1.2s;
-            margin-right: 10px;
-        }
-        .celesteplaceheader span:nth-child(14) {
-            animation-delay: 1.3s;
-        }
-        .celesteplaceheader span:nth-child(15) {
-            animation-delay: 1.4s;
-        }
-        .celesteplaceheader span:nth-child(16) {
-            animation-delay: 1.5s;
-        }
-        .celesteplaceheader span:nth-child(17) {
-            animation-delay: 1.6s;
-            margin-right: 10px;
-        }
-        .celesteplaceheader span:nth-child(18) {
-            animation-delay: 1.7s;
-        }
-        .celesteplaceheader span:nth-child(19) {
-            animation-delay: 1.8s;
-        }
-        .celesteplaceheader span:nth-child(20) {
-            animation-delay: 1.9s;
-        }
-        .celesteplaceheader span:nth-child(21) {
-            animation-delay: 2s;
-        }
-
-        @keyframes move-text {
-            0% { bottom: -0.1em; opacity: 1; }
-            5% { bottom: 0.1em; }
-            10% { bottom:0; opacity: 1; }
-            100% { bottom:0; opacity: 1; }
-        }
-        
-        p {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-        }
-
-        @keyframes rainbow {
-            0% {
-                color: #E42B2C;
-            }
-            5.88% {
-                color: #E9642B;
-            }
-            11.76% {
-                color: #E2A034;
-            }
-            17.64% {
-                color: #E6DE3C;
-            }
-            23.52% {
-                color: #B7E33C;
-            }
-            29.4% {
-                color: #7DE430;
-            }
-            35.28% {
-                color: #45E832;
-            }
-            41.16% {
-                color: #2EE352;
-            }
-            47.04% {
-                color: #2DE58D;
-            }
-            52.92% {
-                color: #2BE4C6;
-            }
-            58.8% {
-                color: #31C8E3;
-            }
-            64.68% {
-                color: #2F55E9;
-            }
-            70.56% {
-                color: #3D2CE0;
-            }
-            76.44% {
-                color: #792EDC;
-            }
-            82.32% {
-                color: #E62CDC;
-            }
-            88.2% {
-                color: #E52CA3;
-            }
-            94.08% {
-                color: #E52F69;
-            }
-            100% {
-                color: #E42B2C
-            }
-        }
-    </style>
     <title>Celeste Place</title>
 </head>
 <body>
+    <audio autoplay loop>
+        <source src="audio/wavedash.ppt loop.MP3" type="audio/mp3" />
+    </audio>
     <header>
         <div class="celesteplaceheader">
             <span>C</span><span>e</span><span>l</span><span>e</span><span>s</span><span>t</span><span>e</span>
@@ -203,5 +30,32 @@
           </div>
         <p>A practical way of serving chaos on a plate</p>
     </header>
+    <section>
+        <div class="cant">
+            <span>Can't</span>
+            <span>Place</span>
+            <span>New</span>
+            <span>Stuff?</span>
+        </div>
+        <ul>
+            <li>Fact: Lonn is complicated</li>
+            <li>Also the buttons are weird</li>
+            <li>And 
+                <section class="sectionwavy">
+                    <span class="wavy">Your Parents</span>
+                </section> 
+                won't help</li>
+            <li>(they don't have time)</li>
+        </ul>
+    </section>
+    <script>
+        const text = document.querySelector('.wavy');
+        text.innerHTML = text.textContent.replace(/\S/g, "<span class=spanwavy>$&</span>")
+
+        const element = document.querySelectorAll('.spanwavy');
+        for (let i=0; i<element.length; i++) {
+            element[i].style.animationDelay=i*0.04 + 's';
+        }
+    </script>
 </body>
 </html>

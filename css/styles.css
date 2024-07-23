@@ -1,0 +1,286 @@
+/* _________ MAIN BUILD _________ */
+
+html {
+    background: #4383bb;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 50px;
+    border: 2px solid #b6ddff;
+    border-radius: 30px;
+    background: #A0C6E8;
+    width:1500px;
+}
+
+
+
+/* _________ HEADER _________ */
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header p {
+    color: #132F4B;
+    font-family: 'Renogare', sans-serif;
+    font-size: 16px;
+}
+
+.celesteplaceheader {
+    margin-top: 10px;
+    font-family: 'Space Grotesk', 'Alegreya', sans-serif;
+}
+.celesteplaceheader {
+    font-family: inherit;
+}
+
+.celesteplaceheader span  {
+    font-family: 'Renogare', sans-serif;
+    font-size: 40px;
+    /* font-weight: 800; */
+    /* text-shadow: 2px 2px 0px red; */
+    animation: rainbow 7s linear infinite, move-text 2s linear infinite;
+    position: relative;
+}
+
+.celesteplaceheader span:nth-child(1) {
+    animation-delay: 0s;
+}
+.celesteplaceheader span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.celesteplaceheader span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+.celesteplaceheader span:nth-child(4) {
+    animation-delay: 0.3s;
+}
+.celesteplaceheader span:nth-child(5) {
+    animation-delay: 0.4s;
+}
+.celesteplaceheader span:nth-child(6) {
+    animation-delay: 0.5s;
+}
+.celesteplaceheader span:nth-child(7) {
+    animation-delay: 0.6s;
+}
+.celesteplaceheader span:nth-child(8) {
+    animation-delay: 0.7s;
+}
+.celesteplaceheader span:nth-child(9) {
+    animation-delay: 0.8s;
+}
+.celesteplaceheader span:nth-child(10) {
+    animation-delay: 0.9s;
+}
+.celesteplaceheader span:nth-child(11) {
+    animation-delay: 1s;
+}
+.celesteplaceheader span:nth-child(12) {
+    animation-delay: 1.1s;
+}
+.celesteplaceheader span:nth-child(13) {
+    animation-delay: 1.2s;
+    margin-right: 10px;
+}
+.celesteplaceheader span:nth-child(14) {
+    animation-delay: 1.3s;
+}
+.celesteplaceheader span:nth-child(15) {
+    animation-delay: 1.4s;
+}
+.celesteplaceheader span:nth-child(16) {
+    animation-delay: 1.5s;
+}
+.celesteplaceheader span:nth-child(17) {
+    animation-delay: 1.6s;
+    margin-right: 10px;
+}
+.celesteplaceheader span:nth-child(18) {
+    animation-delay: 1.7s;
+}
+.celesteplaceheader span:nth-child(19) {
+    animation-delay: 1.8s;
+}
+.celesteplaceheader span:nth-child(20) {
+    animation-delay: 1.9s;
+}
+.celesteplaceheader span:nth-child(21) {
+    animation-delay: 2s;
+}
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+
+/* _________ CAN'T PLACE NEW STUFF? _________ */
+
+.cant {
+    margin: 40px;
+    margin-bottom: 15px;
+}
+
+.cant span {
+    font-family: 'Renogare', sans-serif;
+    color: white;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    transition: font-size 0.5s ease-out;
+    animation: CANT 15s ease-out infinite;
+}
+
+.cant span:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.cant span:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.cant span:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.cant span:nth-child(4) {
+    animation-delay: 2s;
+}
+
+
+
+/* _________ LIST 1 _________ */
+
+ul {
+    margin-left: 30px;
+    font-family: 'renogare', sans-serif;
+}
+
+li {
+    font-size: 18px;
+    color: #440c0c;
+}
+
+.sectionwavy {
+    display: inline;
+    position: relative;
+}
+
+.sectionwavy .wavy {
+    position: relative;
+    letter-spacing: 1px;
+    color: #a85daf;
+}
+
+.sectionwavy .wavy span {
+    position: relative;
+    display: inline-block;
+    animation: wavy 1.5s ease-in-out infinite;
+}
+
+
+
+/* _________  _________ */
+
+
+
+
+
+/* _________  _________ */
+
+
+
+
+
+/* _________ ANIMATIONS _________ */
+
+@keyframes move-text {
+    0% { bottom: -0.1em; opacity: 1; }
+    5% { bottom: 0.1em; }
+    10% { bottom:0; opacity: 1; }
+    100% { bottom:0; opacity: 1; }
+}
+
+@keyframes rainbow {
+    0% {
+        color: #E42B2C;
+    }
+    5.88% {
+        color: #E9642B;
+    }
+    11.76% {
+        color: #E2A034;
+    }
+    17.64% {
+        color: #E6DE3C;
+    }
+    23.52% {
+        color: #B7E33C;
+    }
+    29.4% {
+        color: #7DE430;
+    }
+    35.28% {
+        color: #45E832;
+    }
+    41.16% {
+        color: #2EE352;
+    }
+    47.04% {
+        color: #2DE58D;
+    }
+    52.92% {
+        color: #2BE4C6;
+    }
+    58.8% {
+        color: #31C8E3;
+    }
+    64.68% {
+        color: #2F55E9;
+    }
+    70.56% {
+        color: #3D2CE0;
+    }
+    76.44% {
+        color: #792EDC;
+    }
+    82.32% {
+        color: #E62CDC;
+    }
+    88.2% {
+        color: #E52CA3;
+    }
+    94.08% {
+        color: #E52F69;
+    }
+    100% {
+        color: #E42B2C
+    }
+}
+
+@keyframes CANT {
+    0% {
+        -webkit-text-stroke-color: red;
+    }
+    10% {
+        -webkit-text-stroke-color: black;
+    }
+    100% {
+        -webkit-text-stroke-color: black;
+    }
+}
+
+@keyframes wavy {
+    0% {
+        transform: translateY(3px);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(3px);
+    }
+}
