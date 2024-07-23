@@ -186,9 +186,8 @@ li {
     transform: rotate(335deg);
     font-size: 250px;
     font-weight: 700;
-    position: absolute;
-    right: 0px;
-    padding: 200px;
+    position: relative;
+    right: 300px;
 }
 
 
