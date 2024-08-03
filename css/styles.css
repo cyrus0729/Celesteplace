@@ -201,11 +201,11 @@ li {
 .impossibru {
     display: inline-block;
     text-align: right;
-    transform: rotate(335deg);
-    font-size: 50px;
+    transform: rotate(315deg);
+    font-size: 35px;
     font-weight: 700;
     position: relative;
-    left: 100px;
+    left: 70px;
 }
 
 img {
