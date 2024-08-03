@@ -3,6 +3,9 @@ html {
 }
 
 body {
+}
+
+section {
     margin: 50px;
     border: 2px solid rgb(82, 82, 82);
     border-radius: 30px;
